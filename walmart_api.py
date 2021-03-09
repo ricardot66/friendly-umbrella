@@ -2,7 +2,7 @@ import requests
 import csv
 from scraper_api import ScraperAPIClient
 
-client = ScraperAPIClient('c009f1737b5837fa675ade72875c175b')
+client = ScraperAPIClient('INSERT YOUR API KEY HERE')
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 categories = ['https://www.walmart.com.mx/electrodomesticos/licuadoras-y-batidoras/licuadoras',
               'https://www.walmart.com.mx/electrodomesticos/licuadoras-y-batidoras/batidoras',
